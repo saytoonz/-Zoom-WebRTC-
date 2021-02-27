@@ -15,3 +15,11 @@
     * add node_modules to .gitignore
     * change port to 443 and add process.env.PORT
     * push to github or heroku
+        % pushing to heroku
+            -- git init
+            -- git add .
+            -- git commit -m "commit message"
+            -- heroku create
+            -- git push heroku master/main
+            -- heroku ps:scale web=1
+            -- heroku open
